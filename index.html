@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Digilabs</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <style>
+    /* Modal Structure */
+
+    html,
+    body {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      margin-top: 30px;
+      margin-left: 90px;
+      min-height: 180px;
+      padding: 50;
+      width: 1000px;
+      height: 400px;
+    }
+
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      font-weight: 10px;
+      margin: 0;
+      color: #4e85c5;
+    }
+
+    a:link,
+    a:visited {
+      color: #000000;
+      outline: 0;
+      text-decoration: none;
+    }
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .modal-header {
+      align-items: center;
+      border-bottom: 0.5px solid #dadada;
+    }
+
+    .modal-content {
+      padding: 0 22px;
+    }
+
+    .modal-icons {
+      border-top: 0.5px solid #dadada;
+      height: 50px;
+      width: 100%;
+    }
+
+    .logo {
+      align-items: flex-start;
+      padding: 16px;
+      size: 30px;
+    }
+
+    .logo-icon {
+            align-items: center;
+      vertical-align: text-bottom;
+      margin-right: 40px;
+      width: 200px;
+      height: 200px;
+      
+    }
+
+    .version {
+      color: #444;
+      font-size: 18px;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 22px;
+    }
+
+    .flex {
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
+      width: 120px;
+    }
+
+    .flex:hover {
+      opacity: 0.4;
+    }
+
+    .flex .fa {
+      font-size: 40px;
+      color: #2f5876;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <div class="modal-header">
+      <h1 class="logo">
+      <center> <img class="logo-icon" src="images/digi.jpg" /> </center> <br>
+     <center> Digital Products - Digilabs </center>   
+      </h1>
+    </div>
+    <div class="modal-content">
+      <center> <p>Easily Access Digilabs Products</p> </center>
+      
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://digilabteam.github.io/cetaniltmpuzzle/"> 
+            <img src="images/puzzle.png"></a>
+            <p>Puzzle</p>
+            <!-- <i class="fas fa-puzzle-piece" style="color:darksalmon "></i> -->
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://digilabteam.github.io/GPQUIZ10/#welcome" target="_blank">
+            <i class="fa fa-question" style="color:#4e85c5"></i>
+            <p>Quiz</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://digilabteam.github.io/pictureframer/" target="_blank">
+            <i class="fa fa-image" style="color:#5da945 "></i>
+            <p>Photoframer</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://digilabteam.github.io/cetaniltmmemory/" target="_blank">
+            <i class="fa fa-cogs" style="color:#4e85c5 "></i>
+            <p>Memory</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://lavetam.000webhostapp.com/" target="_blank">
+            <i class="fa fa-cubes" style="color:#5da945"></i>
+            <p>Database</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+</body>
+
+</html>
