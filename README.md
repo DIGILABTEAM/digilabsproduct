@@ -1,2 +1,2 @@
-# digilabsproduct
-####click here for <a href="https://digilabteam.github.io/digilabsproduct/">demo</a>
+## digilabsproduct
+####click here for <a href="https://digilabteam.github.io/digilabsproduct/">Click</a>
